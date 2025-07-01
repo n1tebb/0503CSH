@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Well done!");
+            American_Gorki American_Gorki = new American_Gorki(1,"qwe",3,4);
+            American_Gorki.Info();
         }
     }
 }
